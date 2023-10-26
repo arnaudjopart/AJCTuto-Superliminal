@@ -44,7 +44,7 @@ public class CameraRaycastManager : MonoBehaviour
                 }
                 catch (System.Exception e)
                 {
-                    Debug.LogError("No ISelectable Attached");
+                    Debug.LogWarning("No ISelectable Attached");
                 }
 
             }
